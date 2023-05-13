@@ -1,0 +1,45 @@
+<html>
+<meta lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço programador</title>
+    <link rel="stylesheet" href="index.css">
+    <!--<link rel="icon" href="img\GDMIcon.png"></link>-->
+</head>
+<body id="body" class="d">
+    <h1 id="i01-txt01">- = - = - = - = - Bem vindo! - = - = - = - = - </h1>
+
+    <rect id="i02-bg01">
+		<rect id="i02-left"></rect>
+		<rect id="i02-right"></rect>
+	</rect>
+    
+    <rect id="rect01" class="rect01-c">
+        <rect id="rect00a"></rect>
+        <rect id="rect02" class="rect-n" onmouseover="mo_over(this)" onmouseout="mo_out(this)"
+        onclick="mo_mvscr(1)">
+            <h1 id="txt02">inicio</h1>
+        </rect>
+        <rect id="rect03" class="rect-n" onmouseover="mo_over(this)" onmouseout="mo_out(this)"
+        onclick="mo_mvscr(1)">
+            <h1 id="txt03">aplicativos</h1>
+        </rect>
+
+        <rect id="rect00" class="rect-n" onmouseover="mo_over(this)" onmouseout="mo_out(this)"
+        onclick="togglemenu()">
+            <h1 id="txt00">≡</h1>
+        </rect>
+        <rect id="themec" class="theme-n" onclick="changetheme()">
+            <rect id="themec-btn">
+                <rect id="themec-img">
+                    <rect id="themec-imgh"></rect>
+                </rect>
+            </rect>
+        </rect>
+    </rect>
+    <script src="index.js"></script>
+    <noscript>Você precisa habilitar JavaScript para visualizar este site por completo</noscript>
+</body>
+</html>
